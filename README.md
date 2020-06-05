@@ -3,7 +3,9 @@
 
 NODE.js v12.17.0
 NPM v6.14.4
-![](https://img.shields.io/badge/node.js-12.17.0-blueviolet)
+![](https://img.shields.io/badge/node.js-12.17.0-blueviolet) ![](https://img.shields.io/badge/npm-6.14.4-green)
+
+![](https://github.com/lucasbecker/next-level-week/blob/master/header.png?raw=true)
 
 ## API RESTful
 ### Back-end (Node.js)
