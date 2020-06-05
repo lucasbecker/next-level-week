@@ -2,6 +2,7 @@ import express, { request, response } from 'express';
 import cors from 'cors';
 import path from 'path';
 import routes from './routes';
+import { errors } from 'celebrate';
 
 const app = express();
 
@@ -63,5 +64,7 @@ app.post('/users', (request, response) => {
     };
     return response.json(user);
 });*/
+
+app.use(errors());
 
 app.listen(3333);
