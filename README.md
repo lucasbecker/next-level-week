@@ -1,8 +1,9 @@
-# next-level-week
- Bootcamp Next Level Week da Rocketseat.
+# <next_level_week/>
+> Projeto desevolvido durante a primeira Next Level Week da [Rocketseat](https://rocketseat.com.br/).
 
 NODE.js v12.17.0
 NPM v6.14.4
+![](https://img.shields.io/badge/node.js-12.17.0-blueviolet)
 
 ## API RESTful
 ### Back-end (Node.js)
