@@ -1,68 +1,51 @@
 # ![](https://github.com/lucasbecker/next-level-week/blob/master/header.png?raw=true)
 
-![](https://img.shields.io/badge/node.js-12.17.0-6633CC) ![](https://img.shields.io/badge/npm-6.14.4-34CB79) ![](https://img.shields.io/badge/web-react-6633CC) ![](https://img.shields.io/badge/mobile-react--native-34CB79)
+![](https://img.shields.io/badge/npm-6.14.4-34CB79) ![](https://img.shields.io/badge/node.js-12.17.0-6633CC) ![](https://img.shields.io/badge/web-react-34CB79) ![](https://img.shields.io/badge/mobile-react--native-6633CC)
 
 O projeto intitulado "Ecoleta" foi inicialmente desenvolvido durante a primeira [Next Level Week](https://nextlevelweek.com/) da [Rocketseat](https://rocketseat.com.br/) com o intuito de aprender na prática ferramentas e conceitos para acelerar a evolução como desenvolvedor. O projeto foi desenvolvido utilizando as tecnologias NodeJS, React, React-Native e outras, de modo que foi contruido um servidor API RESTful e banco de dados SQLite sendo alimentado por dados fornecidos através de uma aplicação web e tendo os seus dados acessados através de uma aplicação mobile. 
 
 ## Objetivo
 
-O Ecoleta é um marketplace de coleta de resíduos que ajuda pessoas a encontrarem pontos de coleta de forma eficiente. O seu objetivo é conectar entidades que coletam resíduos que precisam de descartes especificos a pessoas que possuem esses resíduos para descarte. Assim, ajudando pessoas a econtrarem pontos de coleta de forma eficiente e reduzindo o descarte indevido de resíduos potencialmente perigosos como pilhas, baterias e lâmpadas.
+O Ecoleta é um marketplace de coleta de resíduos que ajuda pessoas a encontrarem pontos de coleta de forma eficiente. O seu objetivo é conectar entidades que coletam resíduos que precisam de descartes específicos a pessoas que possuem esses resíduos para descarte. Assim, ajudando pessoas a econtrarem pontos de coleta de forma eficiente e reduzindo o descarte indevido de resíduos potencialmente perigosos como pilhas, baterias e lâmpadas.
 
 ## Tecnologias
-A proposta do projeto era todas as tecnologias ficarem "dentro" do JavaScript, assim, esse projeto foi desenvolvido utilizando as tecnologias listadas a seguir e foram utilizadas em conjunto do TypeScript.
+A proposta do projeto era todas as tecnologias ficarem "dentro" do JavaScript, assim, esse projeto foi desenvolvido utilizando as tecnologias listadas a seguir em conjunto do TypeScript.
 
 ### Server
-#### Node.js
-* Express
-* KnexJS
-* SQLite3
-* Celebrate
-* Multer
-* CORS
-* Hapi/Joi
+* Node.js, Express, KnexJS, SQLite3, Celebrate, Multer, CORS, Hapi/Joi e outros.
 
 ### Web
-#### React
-* React Router Dom
-* React Dropzone
-* React Icons
-* React Leaflet
-* Leaflet
-* Axios
-
+* React, React Router Dom, React Dropzone, React Icons, React Leaflet, Leaflet, Axios e outros.
 
 ### Mobile
-#### React-Native
-* React Native Maps
-* React Native SVG
-* React Navigation
-* Expo
-* Expo Google Fonts
-* Expo Constants
-* Expo Location
-* Expo Mail Composer
-* Axios
+* React-Native, React Native Maps, React Native SVG, React Navigation, Expo, Expo Google Fonts, Expo Constants, Expo Location, Expo Mail Composer, Axios e outros.
 
-## Funcionalidades
+## Funcionalidades da API
+[X] Cadastrar os pontos de coleta.
+[X] Listar os itens de coleta.
+[X] Listar pontos de coleta.
+* Filtrar por estado, cidade ou item.
+[X] Listar um ponto de coleta específico. 
 
 ## Comandos Para Execução
-Iniciar server
+#### Iniciar server
 ```sh
 npm run dev
 ```
 
-Migrar banco de dados e iniciar com dados padrões
+#### Migrar banco de dados e iniciar com dados padrões
 ```sh
 npm run knex:migrate
+
 npm run knex:seed
 ```
 
-Iniciar aplicação web
+#### Iniciar aplicação web
 ```sh
 npm start
 ```
 
-Iniciar aplicação mobile
+#### Iniciar aplicação mobile
 ```sh
 expo start
 ```
