@@ -23,8 +23,7 @@ A proposta do projeto era todas as tecnologias ficarem "dentro" do JavaScript, a
 ## Funcionalidades da API
 - [X] Cadastrar os pontos de coleta.
 - [X] Listar os itens de coleta.
-- [X] Listar pontos de coleta.
-- * Filtrar por estado, cidade ou item.
+- [X] Listar pontos de coleta e filtrar por estado, cidade ou item.
 - [X] Listar um ponto de coleta específico. 
 
 ## Comandos Para Execução
