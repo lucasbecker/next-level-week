@@ -21,11 +21,11 @@ A proposta do projeto era todas as tecnologias ficarem "dentro" do JavaScript, a
 * React-Native, React Native Maps, React Native SVG, React Navigation, Expo, Expo Google Fonts, Expo Constants, Expo Location, Expo Mail Composer, Axios e outros.
 
 ## Funcionalidades da API
-- [ X ] Cadastrar os pontos de coleta.
-- [ X ] Listar os itens de coleta.
-- [ X ] Listar pontos de coleta.
+- [X] Cadastrar os pontos de coleta.
+- [X] Listar os itens de coleta.
+- [X] Listar pontos de coleta.
 - * Filtrar por estado, cidade ou item.
-- [ X ] Listar um ponto de coleta específico. 
+- [X] Listar um ponto de coleta específico. 
 
 ## Comandos Para Execução
 #### Iniciar server
